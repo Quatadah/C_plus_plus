@@ -1,0 +1,6 @@
+#include "Chaine.hpp"
+
+unsigned int Chaine::taille(){
+    return this->_taille;
+}
+
