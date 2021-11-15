@@ -6,5 +6,7 @@ private: // not obligatory
     char* _donnees;
 
 public:
+    Chaine();
+    ~Chaine();
     unsigned int taille();
 };
