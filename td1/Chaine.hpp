@@ -7,6 +7,7 @@ private: // not obligatory
 
 public:
     Chaine();
+    Chaine(const char *s);
     ~Chaine();
-    unsigned int taille();
+    unsigned int taille() const;
 };
