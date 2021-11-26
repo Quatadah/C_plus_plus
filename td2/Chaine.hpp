@@ -23,7 +23,7 @@ class Chaine {
 
   operator int() const; // cast de Chaine en int
   operator const char *() const; // cast de Chaine en const char * (utile pour la fonction puts)
-  Chaine operator+(const Chaine&c) const;
+  Chaine operator+(const Chaine&, const Chaine&);
 };
 
 
