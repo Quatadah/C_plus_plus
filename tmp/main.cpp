@@ -7,9 +7,18 @@ void swap(int &a, int &b){
     b = k;
 }
 
-int main(int argc, char* argv[]){
-    int a = 3, b = 5;
-    swap(a, b);
-    cout << "a = " << a << '\n' << "b = " << b << "\n";
+class Test{
+    int i;
+public:
+    void print(){
+        printf("Test\n");
+    }
+};
+
+
+int main(){
+    Test *t = new Test;
+    t->print();    
+    delete t;
     return 0;
 }
